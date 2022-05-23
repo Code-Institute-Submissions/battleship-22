@@ -164,7 +164,57 @@ def set_grid(ai_grid, human_grid):
 
 # end of game function
 
-# next round 
+# next round
+def next_round(player_result, computer_result, human_grid, ai_grid):
+    """
+    Launches load sequence progress bar. Outputs results
+    of guess and checks if game is over. If not, will
+    call set_grid to start another sequence.
+    """
+    cls()
+    fire()
+    cls()
+    row_p, col_p = ai_grid.guesses[len(ai_grid.guesses) - 1]
+    row_ai, col_ai = human_grid.guesses[len(human_grid.guesses) - 1]
+    console.print(
+        f"Your missile hit grid vector[{row_p},{col_p}],"
+        f"which resulted in a {player_result}",
+        style="bold",
+    )
+    if player_result == "Win!":
+        cls()
+        console.print(
+            Panel.fit(
+                f"Your missile hit [{row_p},{col_p}]"
+                f" which sunk all AI ships"
+            ),
+            style="bold green",
+        )
+        display_grid(ai_grid)
+        console.print(Panel.fit(winner, style="bold green"))
+        print("\n")
+        end_of_game()
+    console.print(
+        f"AI missile hit grid vector "
+        f"[{row_ai},{col_ai}]"
+        f", which resulted in a {computer_result}",
+        style="bold",
+    )
+    if computer_result == "Win!":
+        cls()
+        console.print(
+            Panel.fit(
+                f"You missed and AI missile hit "
+                f"[{row_ai},{col_ai}]"
+                f", which sunk your last ship"
+            ),
+            style="bold red",
+        )
+        display_grid(human_grid)
+        console.print(Panel.fit(loser, style="bold red"))
+        print("\n")
+        end_of_game()
+    set_grid(ai_grid, human_grid)
 
 # welcome message
 def welcome_message():
