@@ -16,7 +16,7 @@
 
 # helper function places ships on grid
 
-#helper function is ship already there
+# helper function is ship already there
 
 # player guess row validation 
 

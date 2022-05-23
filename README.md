@@ -1,31 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battleship Python Terminal Game
 
-Welcome r3b3l-dev,
+![]()
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+[You can view the live project here.]()
 
-## Reminders
+## Project Overview
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+![]()
 
-## Creating the Heroku app
+<div id="top"></div>
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Table of contents
 
-1. `heroku/python`
-2. `heroku/nodejs`
+* [How to Play](#how-to-play)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Features](#existing-features)
+* [Data Model](#data-model)
+* [Game Logic Flow](#game-logic-flow)
+* [Testing](#testing)
+    * [Manual Testing](#manual-testing)
+    * [Validator Testing](#validator-testing)
+* [Deployment](#deployment)
+* [Technologies Used](#technologies-used)
+* [Credits](#credits)
+* [Acknowledgments & References](#acknowledgments--references)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## How To Play
 
-Connect your GitHub repository and deploy as normal.
+## Features
 
-## Constraints
+### Existing Features
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
------
-Happy coding!
+### Future Features
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Data Model
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Game Logic Flow
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Testing
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Manual Testing
+
+### Validator Testing
+
+## Deployment
+
+### Local Deployment
+
+### Heroku Deployment
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Technologies Used
+
+### Language
+
+### Code Repository, Writing, and Version Control
+
+### Python Standard Library Modules
+
+### External Libraries
+
+### Deployment
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Credits
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Acknowledgments & References
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Disclaimer
+
+<p align="right">(<a href="#top">back to top</a>)</p>
