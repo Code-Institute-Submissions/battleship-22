@@ -71,10 +71,48 @@ class Grid:
                 self.Grid[x][y] = "+ "
 
 # helper function for random coordinates
+def random_point(size):
+    """
+    Helper function that returns a random coordinate
+    """
+    return randint(0, size - 1)
 
 # helper function row and col within bounds and hit or miss
+def valid_point(x, y, Grid, type="computer"):
+    """
+    Checks if the row and column input is within bounds and
+    if spot has been hit.
+    """
+    try:
+        get_coords = Grid.Grid[x][y]
+        if get_coords in ["~ ", "+ "]:
+            return True
+        elif type == "player":
+            console.print(
+                "You have already tried those coordinates."
+                "Let's Try again!\n",
+                style="bold red",
+            )
+    except IndexError:
+        console.print(
+            "Your missile can't target outside the game area."
+            "Let's Try again!\n",
+            style="bold red",
+        )
+    return False
 
 # helper function places ships on grid
+def grid_placement(Grid):
+    """
+    Helper function that places ships on the grid.
+    """
+    for _ in range(Grid.num_ships):
+        x = random_point(Grid.size)
+        y = random_point(Grid.size)
+        while occupied_grid(x, y, Grid):
+            x = random_point(Grid.size)
+            y = random_point(Grid.size)
+        Grid.add_ship(x, y)
 
 # helper function is ship already there
 
