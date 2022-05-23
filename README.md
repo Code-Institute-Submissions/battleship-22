@@ -28,8 +28,17 @@ Battleships is a python terminal game, which runs in the Code Institute mock ter
 * [Credits](#credits)
 * [Acknowledgments & References](#acknowledgments--references)
 
-
 ## How To Play
+
+In this version the user is greeted with a welcome screen that displays the object of the game and helpful key of symbols used during gameplay. 
+
+Once asked for the users name the ship placement for both players is randomly generated and the targeting systemt activates. The user is requested to input their shot destination by row and column. The firing simulation plays and the results of both shots displayed. If the player wins the game then the winner message is displayed along with the result and board display of the winning shot. If the player loses the game then the loser message is displayed along with the result and board display of the computers winning shot. With both end of game messages the user then has the option to either quit of restart a new game.
+
+The player can see where their ships are, indicated by `@`, but cannot see where the computer's ships are. Guesses are marked on the board with an `x`. Hits are indicated by a `*`. Each board space is marked with a `~` to simulate water. The key below is displayed during the game for easy reference.
+
+Hit * | Miss X | Water ~ | Ship @
+
+The player and the computer then take it in turns to make the guesses and try to sink each others battleships. The winner is the player who sinks all of their opponents battlships first.
 
 ## Features
 
