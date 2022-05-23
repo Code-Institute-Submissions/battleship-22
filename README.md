@@ -207,15 +207,35 @@ The frontend terminal should now be connected and deployed to Heroku.
 
 ## Technologies Used
 
-### Language
+### Primary Language
+
+[Python](https://www.python.org/) - This program was written in Python.
 
 ### Code Repository, Writing, and Version Control
 
+[Gitpod](https://gitpod.io) - Used for development as the cloud-based IDE.
+
+[GitHub](https://github.com/) - Used for securing my code online.
+
+[Git](https://git-scm.com/) - Used for version control (`git add`, `git commit`, `git push`)
+
 ### Python Standard Library Modules
+
+[OS](https://docs.python.org/3/library/os.html) - Used for clearing the terminal to enhance user experience.
+
+[Random](https://docs.python.org/3/library/random.html) - Used randint for generating random coordinates.
+
+[Time](https://docs.python.org/3/library/time.html) - Used sleep for suspending execution of next thread to enhance user experience.
 
 ### External Libraries
 
+[pyFiglet](https://github.com/pwaller/pyfiglet) - pyFiglet takes ASCII text and renders it in ASCII art fonts. In this project it was used to create the header text on the welcome screen and the win/lose end of game messages.
+
+[Rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal. In this project it was used to add colour and panels to surround the pyfiglet game messages.
+
 ### Deployment
+
+[Heroku](https://www.heroku.com) - Used to display the terminal view of this backend application in a modern web browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
