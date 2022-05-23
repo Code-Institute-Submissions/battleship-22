@@ -250,7 +250,7 @@ The frontend terminal should now be connected and deployed to Heroku.
 
 ## Acknowledgments & References
 
-- External references for specific code is included in comments. These are from [StackOverflow](https://stackoverflow.com/). Inspiration came from battleship project by [TimRas](https://github.com/TimRas/BattleShip.git) combined with [Code Institute](https://codeinstitute.net/ie/) tutorials. Some of these code snippets have been refactored or included and expanded upon.
+- External references for specific code is included in comments. These are from [StackOverflow](https://stackoverflow.com/). Inspiration came from battleship project by [Battleship](https://github.com/TimRas/BattleShip.git) project by TimRas combined with [Code Institute](https://codeinstitute.net/ie/) tutorials. Some of these code snippets have been refactored or included and expanded upon.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
