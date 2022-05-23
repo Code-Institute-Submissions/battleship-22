@@ -1,14 +1,14 @@
 # Battleship Python Terminal Game
 
-![]()
+![Battleship pyfiglet logo](./assets/screenshots/battleship-logo.png)
 
-[You can view the live project here.]()
+[You can view the live project here.](https://r3b3l-battleship.herokuapp.com/)
 
 ## Project Overview
 
 Battleships is a python terminal game, which runs in the Code Institute mock terminal deployed on Heroku. Battlehship is a strategy type guessing game for two players. You can read more about the history, origins and [view further details here](https://en.wikipedia.org/wiki/Battleship_(game)).
 
-![]()
+![Welcome screen image](./assets/screenshots/welcome-screen.png)
 
 <div id="top"></div>
 
