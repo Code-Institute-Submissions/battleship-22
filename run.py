@@ -115,6 +115,13 @@ def grid_placement(Grid):
         Grid.add_ship(x, y)
 
 # helper function is ship already there
+def occupied_grid(x, y, Grid):
+    """
+    Helper function that checks if the
+    coordinates are already occupied with a ship.
+    """
+    get_coords = Grid.Grid[x][y]
+    return get_coords == "+ "
 
 # player guess row validation 
 
@@ -161,6 +168,17 @@ def set_grid(ai_grid, human_grid):
     next_round(player_result, computer_result, human_grid, ai_grid)
 
 # displays the grid
+def display_grid(Grid):
+    """
+    Formats and prints the grid.
+    """
+    console.print(
+        Panel.fit(Grid.name + "'s Grid:", style=" bold bright_green")
+    )
+    print("  " + "   ".join(map(str, range(Grid.size))))
+    for row_num, row in enumerate(Grid.Grid):
+        print(row_num, "  ".join(row))
+    print(" ")
 
 # end of game function
 
