@@ -300,7 +300,7 @@ def welcome_message():
     console.print(Panel.fit("GAMEPLAY:", style="bold green"))
     console.print("Hit * | Miss x | Water ~ | Ship @", style="bold")
     console.print(
-        "Grid is 5 x 5 | Each player has 4 ships\n",
+        "Grid is 3 x 3 | Each player has 3 ships\n",
         style="bold",
     )
     console.print(
@@ -315,8 +315,8 @@ def run_game():
     Prints the welcome message and gets player name.
     Sets the AI and human grid and starts the game.
     """
-    size = 5
-    num_ships = 4
+    size = 3
+    num_ships = 3
     welcome_message()
     while True:
         player_name = console.input(
