@@ -67,7 +67,7 @@ class Grid:
         else:
             self.ships.append((x, y))
             if self.type == "player":
-                self.Grid[x][y] = "+ "
+                self.Grid[x][y] = "@ "
 
 
 def random_point(size):
@@ -84,7 +84,7 @@ def valid_point(x, y, Grid, type="computer"):
     """
     try:
         get_coords = Grid.Grid[x][y]
-        if get_coords in ["~ ", "+ "]:
+        if get_coords in ["~ ", "@ "]:
             return True
         elif type == "player":
             console.print(
@@ -120,7 +120,7 @@ def occupied_grid(x, y, Grid):
     coordinates are already occupied with a ship.
     """
     get_coords = Grid.Grid[x][y]
-    return get_coords == "+ "
+    return get_coords == "@ "
 
 
 def user_input_row():
