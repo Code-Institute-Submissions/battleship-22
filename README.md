@@ -103,6 +103,13 @@ The player and the computer then take it in turns to make the guesses and try to
 
 ### Future Features
 
+* Keep Score and display after each round
+* Allow player to select the board size and number of ships
+* Add a turn counter which ends game once all turns used
+* Allow player to position ships themselves 
+* Allow player to select a difficulty level
+* Have multiple ships sizes larger than 1x1
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Data Model
