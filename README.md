@@ -254,4 +254,6 @@ The frontend terminal should now be connected and deployed to Heroku.
 
 ### Disclaimer
 
+The content of this website is for educational purposes only and not intended for commercial use.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
