@@ -130,8 +130,6 @@ The chart below gives an overview of the game logic flow.
 
 ## Testing
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Manual Testing
 
 I have manually tested this project by completing the following:
@@ -242,9 +240,15 @@ The frontend terminal should now be connected and deployed to Heroku.
 
 ## Credits
 
+-   Code Institute for the terminal.
+
+-   Wikipedia for the details of the Battleships game.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Acknowledgments & References
+
+- External references for specific code is included in comments. These are from [StackOverflow](https://stackoverflow.com/). Inspiration came from battleship project by [TimRas](https://github.com/TimRas/BattleShip.git) combined with [Code Institute](https://codeinstitute.net/ie/) tutorials.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
