@@ -168,6 +168,15 @@ I have manually tested this project by completing the following:
 
 ### Local Deployment
 
+*Gitpod* IDE was used to write the code for this project.
+
+To make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
+- `git clone https://github.com/r3b3l-dev/battleship.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/r3b3l-dev/battleship)
+
 ### Heroku Deployment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
