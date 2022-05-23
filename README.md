@@ -61,6 +61,8 @@ The player and the computer then take it in turns to make the guesses and try to
 
 * Accepts user input
 
+    * Player enters row and column number to shoot
+
 ![User input screenshot](./assets/screenshots/user-input.png)
 
 * Error Checking and Input Validation
