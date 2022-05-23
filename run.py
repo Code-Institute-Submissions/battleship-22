@@ -24,6 +24,12 @@ def cls():
     os.system("cls" if os.name == "nt" else "clear")
 
 # fucntion to simulate firing sequence
+def fire():
+    """
+    Function simulate firing sequence via progress bar.
+    """
+    for _ in track(range(3), description="Firing..."):
+        sleep(0.3)
 
 # main grid class
 
