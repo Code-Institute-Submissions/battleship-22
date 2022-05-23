@@ -122,6 +122,10 @@ The board class stores the board size, the number of ships, the position of the 
 
 ## Game Logic Flow
 
+The chart below gives an overview of the game logic flow.
+
+![Game logic diagram](./assets/diagrams/flow-diagram.png)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Testing
