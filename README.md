@@ -61,7 +61,8 @@ The player and the computer then take it in turns to make the guesses and try to
 
 * Accepts user input
 
-    * Player enters row and column number to shoot
+    * Player enters row number to chooes shot coordinates
+    * Player enters col number to chooes shot coordinates
 
 ![User input screenshot](./assets/screenshots/user-input.png)
 
