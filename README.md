@@ -99,8 +99,6 @@ The player and the computer then take it in turns to make the guesses and try to
 
     ![]()
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Future Features
 
 * Keep Score and display after each round
