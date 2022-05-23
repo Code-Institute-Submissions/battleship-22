@@ -16,7 +16,12 @@ greeting = pyfiglet.figlet_format("BattleShip")
 winner = pyfiglet.figlet_format("You Win!")
 loser = pyfiglet.figlet_format("You Lose!") 
 
-# clear  the terminal
+# Stackoverflow https://bit.ly/stack_overflow
+def cls():
+    """
+    Function to clear the console before running next command.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
 
 # fucntion to simulate firing sequence
 
