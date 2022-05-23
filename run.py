@@ -1,3 +1,4 @@
+# imports
 import os
 from random import randint
 from time import sleep
@@ -8,6 +9,7 @@ from rich.panel import Panel
 from rich.progress import track
 
 # console needs to be defined for rich
+console = Console()
 
 # pyfiglet message variables 
 
