@@ -30,7 +30,7 @@ Battleships is a python terminal game, which runs in the Code Institute mock ter
 
 ## How To Play
 
-In this version the user is greeted with a welcome screen that displays the object of the game and helpful key of symbols used during gameplay. 
+In this version the user is greeted with a welcome screen that displays the object of the game and helpful key of symbols used during gameplay. The game is designed to be a quickfire version of traditional battleship. The board size of 3 x 3 reflects this.
 
 Once asked for the users name the ship placement for both players is randomly generated and the targeting systemt activates. The user is requested to input their shot destination by row and column. The firing simulation plays and the results of both shots displayed. If the player wins the game then the winner message is displayed along with the result and board display of the winning shot. If the player loses the game then the loser message is displayed along with the result and board display of the computers winning shot. With both end of game messages the user then has the option to either quit of restart a new game.
 
@@ -158,9 +158,10 @@ I have manually tested this project by completing the following:
 ### Validator Testing
 
 * PEP8
+    
     * No errors were returned from [PEP8online.com](http://pep8online.com/)
 
-    ![pep8 validator screenshot](./assets/img/pep8validation.png)
+    ![pep8 validator screenshot](./assets/screenshots/pep8validation.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
