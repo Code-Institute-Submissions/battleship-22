@@ -123,9 +123,47 @@ def occupied_grid(x, y, Grid):
     get_coords = Grid.Grid[x][y]
     return get_coords == "+ "
 
-# player guess row validation 
+# player guess row validation
+def user_input_row():
+    '''
+    Requests user row input with validation and
+    returns player guess
+    '''
+    console.print("Hit * | Miss x | Water ~ | Ship @", style="bold")
+    console.print("Targeting System Activated", style="bold red")
+    while True:
+        human_row = console.input("[bold]Enter ROW number:[/] \n")
+        try:
+            human_row_num = int(human_row)
+        except ValueError:
+            console.print(
+                "You need to enter a number.\n",
+                style="bold red",
+            )
+            return user_input_row()
+        else:
+            break
+    return human_row_num
 
 # player guess col validation
+def user_input_col():
+    '''
+    Requests user column input with validation and
+    returns player guess
+    '''
+    while True:
+        human_col = console.input("[bold]Enter COLUMN number:[/]\n")
+        try:
+            human_col_num = int(human_col)
+        except ValueError:
+            console.print(
+                "You need to enter a number between 0 and 9.\n",
+                style="bold red",
+            )
+            return user_input_col()
+        else:
+            break
+    return human_col_num
 
 # player guess helper function
 
