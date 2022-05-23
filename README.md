@@ -134,6 +134,29 @@ The chart below gives an overview of the game logic flow.
 
 ### Manual Testing
 
+I have manually tested this project by completing the following:
+
+* During development the code was passed through the PEP8 validator before each commit.
+
+* I manually tested the input validation as follows:
+
+    * Out of bounds inputs - Confirmed error message and validation loop requesting correct data input.
+
+    ![]()
+
+    * Strings when numbers are expected -- Confirmed error validation loop requesting correct data input.
+
+    ![]()
+
+    * Same input twice - - Confirmed error message and validation loop requesting correct data input.
+
+    ![]()
+
+    * Player Name Input - - Confirmed error message and validation loop requesting correct data input.
+
+    ![]()
+
+
 ### Validator Testing
 
 * PEP8
