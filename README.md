@@ -114,6 +114,10 @@ The player and the computer then take it in turns to make the guesses and try to
 
 ## Data Model
 
+The game uses a board class as the model. The game creates two instances of the board class to hold the player's and the computer's board.
+
+The board class stores the board size, the number of ships, the position of the ships, the guesses against the board, and details such as the board type (player's board or computer) and the player name. Helper functions are used to assist the board class.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Game Logic Flow
