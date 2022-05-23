@@ -13,7 +13,7 @@ console = Console()
 
 greeting = pyfiglet.figlet_format("BattleShip")
 winner = pyfiglet.figlet_format("You Win!")
-loser = pyfiglet.figlet_format("You Lose!") 
+loser = pyfiglet.figlet_format("You Lose!")
 
 # Stackoverflow https://bit.ly/stack_overflow
 def cls():
