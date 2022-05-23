@@ -44,6 +44,61 @@ The player and the computer then take it in turns to make the guesses and try to
 
 ### Existing Features
 
+* Welcome Screen
+    
+    * Explains to the user the object of the game
+    * Provides a gameplay key explaining the emoji symbols used
+    * Allows player to set their name for the game
+
+![]()
+
+* Random board generation
+
+    * Ships are randomly placed on both the player and computer boards
+    * Placement of computer boards is hidden from the user
+
+![]()
+
+* Accepts user input
+
+![]()
+
+* Error Checking and Input Validation
+
+    * You cannot enter coordinates outside the size of the grid
+
+    ![]()
+
+    * You must enter numbers
+
+    ![]()
+
+    * You cannot enter the same guess twice
+
+    ![]()
+
+* Missile launch progress display
+
+    * Once the player makes their choice a progress bar simulates a missile launch sequence before showing shot results
+
+    ![]()
+
+* Shot Results Display
+
+    * After the launch sequence the screen refreshes and confirms the results of the player and computer shot results. The game boards are reprinted with the hit or miss shown on the boards.
+
+    ![]()
+
+* End Game Display
+
+    * **You Lose** - Displays last shot result and player board to show where the last shot landed. Results graphic displays You lose message. Give the user the ability to restart a new game or quit current game.
+
+    ![]()
+
+    * **You Win** - Displays last shot result and player board to show where the last shot landed.Results graphic displays You lose message. Give the user the ability to restart a new game or quit current game.
+
+    ![]()
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Future Features
