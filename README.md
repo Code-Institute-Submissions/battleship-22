@@ -156,14 +156,14 @@ I have manually tested this project by completing the following:
 
     ![]()
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Validator Testing
 
 * PEP8
     * No errors were returned from [PEP8online.com](http://pep8online.com/)
 
     ![pep8 validator screenshot](./assets/img/pep8validation.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Deployment
 
