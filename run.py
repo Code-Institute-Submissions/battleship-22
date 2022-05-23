@@ -11,7 +11,10 @@ from rich.progress import track
 # console needs to be defined for rich
 console = Console()
 
-# pyfiglet message variables 
+# pyfiglet message variables
+greeting = pyfiglet.figlet_format("BattleShip")
+winner = pyfiglet.figlet_format("You Win!")
+loser = pyfiglet.figlet_format("You Lose!") 
 
 # clear  the terminal
 
