@@ -60,7 +60,7 @@ Battleships is a python terminal game, which runs in the Code Institute mock ter
 * PEP8
     * No errors were returned from [PEP8online.com](http://pep8online.com/)
 
-    ![pep8 validator screenshot](./assets/img/pep8 validation.png)
+    ![pep8 validator screenshot](./assets/img/pep8validation.png)
 
 ## Deployment
 
