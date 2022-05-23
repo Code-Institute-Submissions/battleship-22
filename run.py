@@ -127,6 +127,16 @@ def grid_placement(Grid):
 # checks if input is valid and returns computer guess
 
 # sets the grid
+def set_grid(ai_grid, human_grid):
+    """
+    Helper function that displays the grids and
+    proceeds to asking for user input/guess.
+    """
+    display_grid(human_grid)
+    display_grid(ai_grid)
+    player_result = ask_player_guess(ai_grid)
+    computer_result = generate_computer_guess(human_grid)
+    next_round(player_result, computer_result, human_grid, ai_grid)
 
 # displays the grid
 
