@@ -100,7 +100,7 @@ The player and the computer then take it in turns to make the guesses and try to
 
     * **You Win** - Displays last shot result and player board to show where the last shot landed.Results graphic displays You lose message. Give the user the ability to restart a new game or quit current game.
 
-    ![Win Screenshot](./assets/screenshots/win-screen.png)
+    ![Win Screenshot](./assets/screenshots/winner-screen.png)
 
 ### Future Features
 
