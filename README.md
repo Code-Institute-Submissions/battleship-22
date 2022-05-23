@@ -156,6 +156,7 @@ I have manually tested this project by completing the following:
 
     ![]()
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Validator Testing
 
