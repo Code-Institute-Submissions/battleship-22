@@ -89,7 +89,7 @@ The player and the computer then take it in turns to make the guesses and try to
 
     * After the launch sequence the screen refreshes and confirms the results of the player and computer shot results. The game boards are reprinted with the hit or miss shown on the boards.
 
-    ![Shot Results Screenshot](./assets/screenshots/shot-results.pnglose-cressn)
+    ![Shot Results Screenshot](./assets/screenshots/shot-results.png)
 
 * End Game Display
 
