@@ -50,54 +50,54 @@ The player and the computer then take it in turns to make the guesses and try to
     * Provides a gameplay key explaining the emoji symbols used
     * Allows player to set their name for the game
 
-![]()
+![Welcome Screen](./assets/screenshots/welcome-screen.png)
 
 * Random board generation
 
     * Ships are randomly placed on both the player and computer boards
     * Placement of computer boards is hidden from the user
 
-![]()
+![Display boards](./assets/screenshots/displayboards-feature.png)
 
 * Accepts user input
 
-![]()
+![User input screenshot](./assets/screenshots/user-input.png)
 
 * Error Checking and Input Validation
 
     * You cannot enter coordinates outside the size of the grid
 
-    ![]()
+    ![Error 1 Screenshot](./assets/screenshots/error-1.png)
 
     * You must enter numbers
 
-    ![]()
+    ![Error 2 Screenshot](./assets/screenshots/error-2.png)
 
     * You cannot enter the same guess twice
 
-    ![]()
+    ![Error 3 screenshot](./assets/screenshots/error-3.png)
 
 * Missile launch progress display
 
     * Once the player makes their choice a progress bar simulates a missile launch sequence before showing shot results
 
-    ![]()
+    ![Progress feature Screenshot](./assets/screenshots/feat-progress.png)
 
 * Shot Results Display
 
     * After the launch sequence the screen refreshes and confirms the results of the player and computer shot results. The game boards are reprinted with the hit or miss shown on the boards.
 
-    ![]()
+    ![Shot Results Screenshot](./assets/screenshots/shot-results.pnglose-cressn)
 
 * End Game Display
 
     * **You Lose** - Displays last shot result and player board to show where the last shot landed. Results graphic displays You lose message. Give the user the ability to restart a new game or quit current game.
 
-    ![]()
+    ![Lose Screenshot](./assets/screenshots/lose-screen.png)
 
     * **You Win** - Displays last shot result and player board to show where the last shot landed.Results graphic displays You lose message. Give the user the ability to restart a new game or quit current game.
 
-    ![]()
+    ![Win Screenshot](./assets/screenshots/win-screen.png)
 
 ### Future Features
 
@@ -138,19 +138,19 @@ I have manually tested this project by completing the following:
 
     * Out of bounds inputs - Confirmed error message and validation loop requesting correct data input.
 
-    ![]()
+    ![Error 1 Screenshot](./assets/screenshots/error-1.png)
 
     * Strings when numbers are expected -- Confirmed error validation loop requesting correct data input.
 
-    ![]()
+    ![Error 2 Screenshot](./assets/screenshots/error-2.png)
 
     * Same input twice - - Confirmed error message and validation loop requesting correct data input.
 
-    ![]()
+    ![Error 3 Screenshot](./assets/screenshots/error-3.png)
 
     * Player Name Input - - Confirmed error message and validation loop requesting correct data input.
 
-    ![]()
+    ![Error 4 Screenshot](./assets/screenshots/error-4.png)
 
 ### Validator Testing
 
