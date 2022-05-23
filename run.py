@@ -112,7 +112,7 @@ def welcome_message():
     console.print(Panel.fit("GAMEPLAY:", style="bold green"))
     console.print("Hit * | Miss x | Water ~ | Ship @", style="bold")
     console.print(
-        "Grid is 3 x 3 | Each player has 4 ships\n",
+        "Grid is 5 x 5 | Each player has 4 ships\n",
         style="bold",
     )
     console.print(
