@@ -1,4 +1,3 @@
-# imports
 import os
 from random import randint
 from time import sleep
@@ -8,10 +7,10 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.progress import track
 
-# console needs to be defined for rich
+
 console = Console()
 
-# pyfiglet message variables
+
 greeting = pyfiglet.figlet_format("BattleShip")
 winner = pyfiglet.figlet_format("You Win!")
 loser = pyfiglet.figlet_format("You Lose!") 
@@ -23,7 +22,7 @@ def cls():
     """
     os.system("cls" if os.name == "nt" else "clear")
 
-# fucntion to simulate firing sequence
+
 def fire():
     """
     Function simulate firing sequence via progress bar.
@@ -31,7 +30,7 @@ def fire():
     for _ in track(range(3), description="Firing..."):
         sleep(0.3)
 
-# main grid class
+
 class Grid:
     """
     Main Grid class. Sets Grid size, the number of ships, the player's name
@@ -70,14 +69,14 @@ class Grid:
             if self.type == "player":
                 self.Grid[x][y] = "+ "
 
-# helper function for random coordinates
+
 def random_point(size):
     """
     Helper function that returns a random coordinate
     """
     return randint(0, size - 1)
 
-# helper function row and col within bounds and hit or miss
+
 def valid_point(x, y, Grid, type="computer"):
     """
     Checks if the row and column input is within bounds and
@@ -101,7 +100,7 @@ def valid_point(x, y, Grid, type="computer"):
         )
     return False
 
-# helper function places ships on grid
+
 def grid_placement(Grid):
     """
     Helper function that places ships on the grid.
@@ -114,7 +113,7 @@ def grid_placement(Grid):
             y = random_point(Grid.size)
         Grid.add_ship(x, y)
 
-# helper function is ship already there
+
 def occupied_grid(x, y, Grid):
     """
     Helper function that checks if the
@@ -123,7 +122,7 @@ def occupied_grid(x, y, Grid):
     get_coords = Grid.Grid[x][y]
     return get_coords == "+ "
 
-# player guess row validation
+
 def user_input_row():
     '''
     Requests user row input with validation and
@@ -145,7 +144,7 @@ def user_input_row():
             break
     return human_row_num
 
-# player guess col validation
+
 def user_input_col():
     '''
     Requests user column input with validation and
@@ -165,9 +164,7 @@ def user_input_col():
             break
     return human_col_num
 
-# player guess helper function
 
-# player input validation and return guess
 def ask_player_guess(ai_grid):
     """
     Checks if both guesses from user are valid.
@@ -180,7 +177,7 @@ def ask_player_guess(ai_grid):
         col_p = user_input_col()
     return ai_grid.guess(row_p, col_p)
 
-# checks if input is valid and returns computer guess
+
 def generate_computer_guess(human_grid):
     """
     Checks if generated input from computer is valid.
@@ -193,7 +190,7 @@ def generate_computer_guess(human_grid):
         col_ai = random_point(human_grid.size)
     return human_grid.guess(row_ai, col_ai)
 
-# sets the grid
+
 def set_grid(ai_grid, human_grid):
     """
     Helper function that displays the grids and
@@ -205,7 +202,7 @@ def set_grid(ai_grid, human_grid):
     computer_result = generate_computer_guess(human_grid)
     next_round(player_result, computer_result, human_grid, ai_grid)
 
-# displays the grid
+
 def display_grid(Grid):
     """
     Formats and prints the grid.
@@ -218,9 +215,23 @@ def display_grid(Grid):
         print(row_num, "  ".join(row))
     print(" ")
 
-# end of game function
 
-# next round
+def end_of_game():
+    '''
+    Helper function to generate end of game message
+    and ask to continue or quit.
+    '''
+    if console.input(
+        "[bold underline]Type (Y) to restart a new game"
+        "or any other key to (QUIT)[/]\n"
+    ) == "y":
+        cls()
+        run_game()
+    else:
+        cls()
+        quit()
+
+
 def next_round(player_result, computer_result, human_grid, ai_grid):
     """
     Launches load sequence progress bar. Outputs results
@@ -272,7 +283,7 @@ def next_round(player_result, computer_result, human_grid, ai_grid):
         end_of_game()
     set_grid(ai_grid, human_grid)
 
-# welcome message
+
 def welcome_message():
     '''
     Helper function that prints the welcome message,
@@ -296,7 +307,7 @@ def welcome_message():
         style="cyan"
     )
 
-# run the game
+
 def run_game():
     """
     Sets the size of the grid and number of ships.
@@ -326,6 +337,6 @@ def run_game():
 
     set_grid(ai_grid, human_grid)
 
-# name == main
+
 if __name__ == "__main__":
     run_game()
