@@ -123,8 +123,30 @@ def grid_placement(Grid):
 # player guess helper function
 
 # player input validation and return guess
+def ask_player_guess(ai_grid):
+    """
+    Checks if both guesses from user are valid.
+    Loops until correct guess entered and returns player guess.
+    """
+    row_p = user_input_row()
+    col_p = user_input_col()
+    while not (valid_point(row_p, col_p, ai_grid, "player")):
+        row_p = user_input_row()
+        col_p = user_input_col()
+    return ai_grid.guess(row_p, col_p)
 
 # checks if input is valid and returns computer guess
+def generate_computer_guess(human_grid):
+    """
+    Checks if generated input from computer is valid.
+    Loops until correct guess entered and returns computer guess.
+    """
+    row_ai = random_point(human_grid.size)
+    col_ai = random_point(human_grid.size)
+    while not (valid_point(row_ai, col_ai, human_grid)):
+        row_ai = random_point(human_grid.size)
+        col_ai = random_point(human_grid.size)
+    return human_grid.guess(row_ai, col_ai)
 
 # sets the grid
 def set_grid(ai_grid, human_grid):
